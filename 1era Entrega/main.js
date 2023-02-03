@@ -14,3 +14,5 @@ if(fechaingresada == "11/02/2023"){
 }
 
 alert("reserva tu habitacion");
+
+
