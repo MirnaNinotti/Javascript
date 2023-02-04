@@ -13,6 +13,15 @@ if(fechaingresada == "11/02/2023"){
     fecha = prompt("ingrese fecha de reserva (dd/mm/aaaa)");
 }
 
-alert("reserva tu habitacion");
+
+
+
+let habitacion = prompt ("que habitacion estas buscando?");
+let habitacionSimple = 5000
+let cantidad = prompt ("cuantas habitaciones queres reservar?");
+
+let resultado1 = habitacionSimple * cantidad;
+
+alert ("debes abonar" + resultado1)
 
 
